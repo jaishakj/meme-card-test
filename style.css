@@ -11,37 +11,14 @@ body {
 
 .future-box::before {
     content: "";
-
     position: absolute;
-
     top: 92px;
     right: 0;
-
     width: 96px;
     height: 74px;
-
     background: #000;
-
     border-radius: 28px 28px 0 0;
-
     z-index: 10;
-}
-
-.future-box::after {
-    content: "● ● ●";
-
-    position: absolute;
-
-    top: 118px;
-    right: 26px;
-
-    color: #f5f1e7;
-
-    font-size: 12px;
-
-    letter-spacing: 6px;
-
-    z-index: 11;
 }
 
 .box-shape {

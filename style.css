@@ -31,28 +31,3 @@ body {
     stroke: #222;
     stroke-width: 2;
 }
-
-.menu-tab {
-    position: absolute;
-    top: 86px;
-    right: 0;
-    width: 100px;
-    height: 78px;
-    background: #000;
-    border-radius: 28px 28px 0 0;
-    z-index: 10;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 12px;
-    padding-top: 28px;
-    overflow: hidden;
-}
-
-.menu-tab span {
-    width: 10px;
-    height: 10px;
-    background: #f5f1e7;
-    border-radius: 50%;
-    flex-shrink: 0;
-}
